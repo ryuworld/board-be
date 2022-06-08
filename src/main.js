@@ -1,6 +1,6 @@
-const cors = require("cors");
-const express = require("express");
-const router = require('./router');
+import cors from "cors";
+import express from "express";
+import router from './router';
 
 const PORT = 8081;
 
@@ -10,5 +10,5 @@ app.use(cors());
 app.use('/', router);
 
 app.listen(PORT, () => {
-  console.log("test:", PORT);
+  console.log(`test: http://localhost:${PORT}`);
 });

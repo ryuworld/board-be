@@ -1,5 +1,5 @@
-const slicedData = require('../data/sliced_data.json');
+import slicedData from '../data/sliced_data.json';
 
-exports.getSlicedData = (req, res) => {
+export const getSlicedData = (req, res) => {
   res.json(slicedData);
 };
