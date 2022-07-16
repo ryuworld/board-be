@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../board-fe"
+		},
+		{
+			"path": "../ryuworld"
+		}
+	],
+	"settings": {}
+}
