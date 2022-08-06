@@ -4,6 +4,7 @@
     "allowJs": true,
     "baseUrl": ".",
     "esModuleInterop": true,
+    "target": "ES2017",
     "outDir": "dist",
     "resolveJsonModule": true,
     "paths": {
